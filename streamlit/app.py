@@ -5,7 +5,14 @@ import os
 import shutil
 from typing import List
 import sys
-import os
+import importlib
+
+import sqlite3
+import streamlit as st
+
+st.write("SQLite version:", sqlite3.sqlite_version)
+
+
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from config import CHROMA_DB_DIR
