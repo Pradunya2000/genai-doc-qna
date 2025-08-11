@@ -14,3 +14,6 @@ pydantic
 python-multipart
 requests
 streamlit
+chromadb[grpc]==0.4.7
+langchain-community==0.0.206
+python-multipart
