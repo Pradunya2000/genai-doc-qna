@@ -10,7 +10,7 @@ import importlib
 import sqlite3
 import streamlit as st
 
-st.write("SQLite version:", sqlite3.sqlite_version)
+# st.write("SQLite version:", sqlite3.sqlite_version)
 
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
